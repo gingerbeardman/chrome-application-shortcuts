@@ -1,0 +1,229 @@
+{
+   "addStyleLabel": {
+      "description": "Label for the button to go to the add style page",
+      "message": "Yeni stil olu\u015Ftur"
+   },
+   "addStyleTitle": {
+      "description": "Title of the page for adding styles",
+      "message": "Stil Ekle"
+   },
+   "appliesAdd": {
+      "description": "Label for the button to add an 'applies' entry",
+      "message": "Ekle"
+   },
+   "appliesDisplay": {
+      "description": "Text on the manage screen to describe what the style applies to",
+      "message": "\u015Euraya uygulan\u0131r: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "description": "Text added to appliesDisplay when there are more sites for the style than are displayed",
+      "message": "ve di\u011Ferleri"
+   },
+   "appliesDomainOption": {
+      "description": "Option to make the style apply to the entered string as a domain",
+      "message": "Alan ad\u0131ndaki URL'ler"
+   },
+   "appliesHelp": {
+      "description": "Help text for 'applies to' section",
+      "message": "Bu b\u00F6l\u00FCmdeki kodun hangi URL'lere uygulanaca\u011F\u0131n\u0131 s\u0131n\u0131rlamak i\u00E7in '\u015Euraya uygulan\u0131r:' denetimlerini kullan\u0131n."
+   },
+   "appliesLabel": {
+      "description": "Label for 'applies to' fields on the edit/add screen",
+      "message": "\u015Euraya uygulan\u0131r:"
+   },
+   "appliesRegexpOption": {
+      "description": "Option to make the style apply to the entered string as a regular expression",
+      "message": "regexp ile e\u015Fle\u015Fen URL'ler"
+   },
+   "appliesRemove": {
+      "description": "Label for the button to remove an 'applies' entry",
+      "message": "Kald\u0131r"
+   },
+   "appliesSpecify": {
+      "description": "Label for the button to make a style apply only to specific sites",
+      "message": "Belirt"
+   },
+   "appliesToEverything": {
+      "description": "Text displayed for styles that apply to all sites",
+      "message": "Her \u015Fey"
+   },
+   "appliesUrlOption": {
+      "description": "Option to make the style apply to the entered string as a URL",
+      "message": "URL"
+   },
+   "appliesUrlPrefixOption": {
+      "description": "Option to make the style apply to the entered string as a URL prefix",
+      "message": "\u015Eununla ba\u015Flayan URL'ler:"
+   },
+   "checkAllUpdates": {
+      "description": "Label for the button to check all styles for updates",
+      "message": "T\u00FCm stiller i\u00E7in g\u00FCncellemeleri denetle"
+   },
+   "checkForUpdate": {
+      "description": "Label for the button to check a single style for an update",
+      "message": "G\u00FCncellemeleri denetle"
+   },
+   "checkingForUpdate": {
+      "description": "Text to display when checking a style for an update",
+      "message": "Kontrol ediliyor..."
+   },
+   "deleteStyleConfirm": {
+      "description": "Confirmation before deleting a style",
+      "message": "Bu stili silmek istedi\u011Finizden emin misiniz?"
+   },
+   "deleteStyleLabel": {
+      "description": "Label for the button to delete a style",
+      "message": "Sil"
+   },
+   "desc": {
+      "message": "Kullan\u0131c\u0131 stilleri web sitelerine y\u00F6nelik temalard\u0131r. Kullan\u0131c\u0131 stilleri, web sitelerini g\u00FCncellemenize olanak tan\u0131yarak g\u00F6z atma deneyiminizi geli\u015Ftirir. Alakas\u0131z i\u00E7eri\u011Fi \u00E7\u0131kar\u0131n, renkleri de\u011Fi\u015Ftirin veya t\u00FCm siteyi ba\u015Ftan a\u015Fa\u011F\u0131 yeniden tasarlay\u0131n.\n\nStylish kullan\u0131c\u0131 stillerini kolayca eklemenizi sa\u011Flar. Kod d\u00FCzenlemeden, anla\u015F\u0131lmas\u0131 g\u00FC\u00E7 yap\u0131land\u0131rmalar bulmak zorunda kalmadan stilleri yaln\u0131zca birka\u00E7 t\u0131klamayla ekleyin, silin, etkinle\u015Ftirin, devre d\u0131\u015F\u0131 b\u0131rak\u0131n ve d\u00FCzenleyin. Stylish'in dost web sitesi userstyles.org, di\u011Fer Stylish kullan\u0131c\u0131lar\u0131 taraf\u0131ndan yap\u0131lm\u0131\u015F, deneyebilece\u011Finiz on binlerce kullan\u0131c\u0131 stili bar\u0131nd\u0131rmaktad\u0131r.\n\nTeknik merakl\u0131lar i\u00E7in konuyu \u015F\u00F6yle a\u00E7\u0131klayabiliriz: Stylish ve userstyles.org Greasemonkey'deki CSS ve userscripts.org da JavaScript'ir.\n\n*** Yard\u0131ma ihtiyac\u0131n\u0131z varsa l\u00FCtfen http://forum.userstyles.org sitesinde sorun. Sorunuzu bu sitede yay\u0131nlamazsan\u0131z size yan\u0131t veremem."
+   },
+   "description": {
+      "description": "Extension description",
+      "message": "Kullan\u0131c\u0131 stil y\u00F6neticisi Stylish ile Web'in stilini yenileyin. Stylish Google, Facebook, YouTube, Orkut ve di\u011Fer pek \u00E7ok site i\u00E7in temalar ve g\u00F6r\u00FCn\u00FCm y\u00FCklemenize imk\u00E2n tan\u0131r."
+   },
+   "disableStyleLabel": {
+      "description": "Label for the button to disable a style",
+      "message": "Devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "editStyleHeading": {
+      "description": "Title of the page for editing styles",
+      "message": "Stili D\u00FCzenle"
+   },
+   "editStyleLabel": {
+      "description": "Label for the button to go to the edit style page",
+      "message": "D\u00FCzenle"
+   },
+   "editStyleTitle": {
+      "description": "Title of the page for editing styles",
+      "message": "$stylename$ Stilini D\u00FCzenleyin",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "description": "Label for the button to enable a style",
+      "message": "Etkinle\u015Ftir"
+   },
+   "findStylesForSite": {
+      "description": "Text for a link that gets a list of styles for the current site",
+      "message": "Bu site i\u00E7in ba\u015Fka stiller bul."
+   },
+   "helpAlt": {
+      "description": "Alternate text for help buttons",
+      "message": "Yard\u0131m"
+   },
+   "installUpdate": {
+      "description": "Label for the button to install an update for a single style",
+      "message": "G\u00FCncellemeyi y\u00FCkle"
+   },
+   "manageHeading": {
+      "description": "Heading for the manage page",
+      "message": "Y\u00FCkl\u00FC Stiller"
+   },
+   "manageText": {
+      "description": "Help text on the manage page",
+      "message": "\u00D6nceden haz\u0131rlanm\u0131\u015F stiller i\u00E7in \u003Ca href='http://userstyles.org'\u003Euserstyles.org\u003C/a\u003E sitesini ziyaret edin. Yard\u0131ma ihtiyac\u0131n\u0131z olursa sorunuzu \u003Ca href='http://forum.userstyles.org'\u003Eforum\u003C/a\u003E'da yay\u0131nlay\u0131n."
+   },
+   "manageTitle": {
+      "description": "Title for the manage page",
+      "message": "Stylish"
+   },
+   "noStylesForSite": {
+      "description": "Text displayed when no styles are installed for the current site",
+      "message": "Bu site i\u00E7in hi\u00E7bir stil y\u00FCklenmedi."
+   },
+   "openManage": {
+      "description": "Link to open the manage page.",
+      "message": "Y\u00FCkl\u00FC stilleri y\u00F6net."
+   },
+   "sectionAdd": {
+      "description": "Label for the button to add a section",
+      "message": "Ba\u015Fka b\u00F6l\u00FCm ekle"
+   },
+   "sectionCode": {
+      "description": "Label for the code for a section",
+      "message": "Kod"
+   },
+   "sectionHelp": {
+      "description": "Help text for sections",
+      "message": "B\u00F6l\u00FCmler, ayn\u0131 stil i\u00E7indeki farkl\u0131 URL k\u00FCmelerine uygulanacak farkl\u0131 kod par\u00E7alar\u0131 tan\u0131mlaman\u0131za olanak sa\u011Flar. \u00D6rne\u011Fin, tek bir stil bir sitenin ana sayfas\u0131n\u0131 belirli bir \u015Fekilde de\u011Fi\u015Ftirirken, sayfan\u0131n kalan k\u0131sm\u0131n\u0131 farkl\u0131 bir \u015Fekilde de\u011Fi\u015Ftirebilir."
+   },
+   "sectionRemove": {
+      "description": "Label for the button to remove a section",
+      "message": "B\u00F6l\u00FCm\u00FC kald\u0131r"
+   },
+   "styleCancelEditLabel": {
+      "description": "Label for cancel button for style editing",
+      "message": "Y\u00F6netim sayfas\u0131na d\u00F6n"
+   },
+   "styleChangesNotSaved": {
+      "description": "Text for the prompt when changes are made to a style and the user tries to leave without saving",
+      "message": "Bu stilde yapt\u0131\u011F\u0131n\u0131z, kaydedilmemi\u015F de\u011Fi\u015Fiklikler var."
+   },
+   "styleEnabledLabel": {
+      "description": "Label for the enabled state of styles",
+      "message": "Etkin"
+   },
+   "styleInstall": {
+      "description": "Confirmation when installing a style",
+      "message": "'$stylename$' Stylish'e y\u00FCklensin mi?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "description": "Error displayed when user saves without providing a name",
+      "message": "Bir ad girin."
+   },
+   "styleNameLabel": {
+      "description": "Label for the name of styles",
+      "message": "Ad"
+   },
+   "styleSaveLabel": {
+      "description": "Label for save button for style editing",
+      "message": "Kaydet"
+   },
+   "styleSectionsTitle": {
+      "description": "Title for the style sections section",
+      "message": "B\u00F6l\u00FCmler"
+   },
+   "styleToMozillaFormat": {
+      "description": "Label for the button that converts the code to Mozilla format",
+      "message": "Mozilla bi\u00E7imine"
+   },
+   "styleToMozillaFormatHelp": {
+      "description": "Help info for the button that converts the code to Mozilla format",
+      "message": "Kodun Mozilla bi\u00E7imi, Firefox i\u00E7in Stylish ile kullan\u0131labilir ve userstyles.org sitesine g\u00F6nderilebilir."
+   },
+   "updateCheckFailBadResponseCode": {
+      "description": "Text that displays when an update check failed because the response code indicates an error",
+      "message": "G\u00FCncellenemedi - sunucu yan\u0131t olarak $code$ kodunu g\u00F6nderdi.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "description": "Text that displays when an update check failed because the update server is unreachable",
+      "message": "G\u00FCncellenemedi - sunucuya eri\u015Filemiyor."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "description": "Text that displays when an update check completed and no update is available",
+      "message": "Stil g\u00FCncel."
+   },
+   "updateCompleted": {
+      "description": "Text that displays when an update completed",
+      "message": "G\u00FCncelleme tamamland\u0131."
+   }
+}

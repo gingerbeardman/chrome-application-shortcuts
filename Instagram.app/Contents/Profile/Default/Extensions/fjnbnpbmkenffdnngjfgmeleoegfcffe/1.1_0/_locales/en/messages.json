@@ -1,0 +1,230 @@
+{
+   "addStyleLabel": {
+      "description": "Label for the button to go to the add style page",
+      "message": "Write new style"
+   },
+   "addStyleTitle": {
+      "description": "Title of the page for adding styles",
+      "message": "Add Style"
+   },
+   "appliesAdd": {
+      "description": "Label for the button to add an 'applies' entry",
+      "message": "Add"
+   },
+   "appliesDisplay": {
+      "description": "Text on the manage screen to describe what the style applies to",
+      "message": "Applies to: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "description": "Text added to appliesDisplay when there are more sites for the style than are displayed",
+      "message": "and more"
+   },
+   "appliesDomainOption": {
+      "description": "Option to make the style apply to the entered string as a domain",
+      "message": "URLs on the domain"
+   },
+   "appliesHelp": {
+      "description": "Help text for 'applies to' section",
+      "message": "Use the 'Applies to' controls to limit what URLs the code in this section applies to."
+   },
+   "appliesLabel": {
+      "description": "Label for 'applies to' fields on the edit/add screen",
+      "message": "Applies to"
+   },
+   "appliesRegexpOption": {
+      "description": "Option to make the style apply to the entered string as a regular expression",
+      "message": "URLs matching the regexp"
+   },
+   "appliesRemove": {
+      "description": "Label for the button to remove an 'applies' entry",
+      "message": "Remove"
+   },
+   "appliesSpecify": {
+      "description": "Label for the button to make a style apply only to specific sites",
+      "message": "Specify"
+   },
+   "appliesToEverything": {
+      "description": "Text displayed for styles that apply to all sites",
+      "message": "Everything"
+   },
+   "appliesUrlOption": {
+      "description": "Option to make the style apply to the entered string as a URL",
+      "message": "URL"
+   },
+   "appliesUrlPrefixOption": {
+      "description": "Option to make the style apply to the entered string as a URL prefix",
+      "message": "URLs starting with"
+   },
+   "checkAllUpdates": {
+      "description": "Label for the button to check all styles for updates",
+      "message": "Check all styles for updates"
+   },
+   "checkForUpdate": {
+      "description": "Label for the button to check a single style for an update",
+      "message": "Check for update"
+   },
+   "checkingForUpdate": {
+      "description": "Text to display when checking a style for an update",
+      "message": "Checking..."
+   },
+   "deleteStyleConfirm": {
+      "description": "Confirmation before deleting a style",
+      "message": "Are you sure you want to delete this style?"
+   },
+   "deleteStyleLabel": {
+      "description": "Label for the button to delete a style",
+      "message": "Delete"
+   },
+   "description": {
+      "description": "Extension description",
+      "message": "Restyle the web with Stylish, a user styles manager. Stylish lets you easily install themes and skins for Google, Facebook, YouTube, Orkut, and many, many other sites."
+   },
+   "disableStyleLabel": {
+      "description": "Label for the button to disable a style",
+      "message": "Disable"
+   },
+   "editStyleHeading": {
+      "description": "Title of the page for editing styles",
+      "message": "Edit Style"
+   },
+   "editStyleLabel": {
+      "description": "Label for the button to go to the edit style page",
+      "message": "Edit"
+   },
+   "editStyleTitle": {
+      "description": "Title of the page for editing styles",
+      "message": "Edit Style $stylename$",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "description": "Label for the button to enable a style",
+      "message": "Enable"
+   },
+   "findStylesForSite": {
+      "description": "Text for a link that gets a list of styles for the current site",
+      "message": "Find more styles for this site."
+   },
+   "helpAlt": {
+      "description": "Alternate text for help buttons",
+      "message": "Help"
+   },
+   "installUpdate": {
+      "description": "Label for the button to install an update for a single style",
+      "message": "Install update"
+   },
+   "manageHeading": {
+      "description": "Heading for the manage page",
+      "message": "Installed Styles"
+   },
+   "manageText": {
+      "description": "Help text on the manage page",
+      "message": "Visit \u003Ca href='http://userstyles.org'\u003Euserstyles.org\u003C/a\u003E for pre-made styles. Ask in \u003Ca href='http://forum.userstyles.org'\u003Ethe forum\u003C/a\u003E if you need help."
+   },
+   "manageTitle": {
+      "description": "Title for the manage page",
+      "message": "Stylish"
+   },
+   "noStylesForSite": {
+      "description": "Text displayed when no styles are installed for the current site",
+      "message": "No styles installed for this site."
+   },
+   "openManage": {
+      "description": "Link to open the manage page.",
+      "message": "Manage installed styles."
+   },
+   "sectionAdd": {
+      "description": "Label for the button to add a section",
+      "message": "Add another section"
+   },
+   "sectionCode": {
+      "description": "Label for the code for a section",
+      "message": "Code"
+   },
+   "sectionHelp": {
+      "description": "Help text for sections",
+      "message": "Sections let you define different pieces of code to apply to different sets of URLs in the same style. For example, a single style could change the homepage of a site one way, while changing the rest of a site another way."
+   },
+   "sectionRemove": {
+      "description": "Label for the button to remove a section",
+      "message": "Remove section"
+   },
+   "styleBadRegexp": {
+      "description": "Validation message for a bad regexp in a style",
+      "message": "Regexp is invalid."
+   },
+   "styleCancelEditLabel": {
+      "description": "Label for cancel button for style editing",
+      "message": "Back to manage"
+   },
+   "styleChangesNotSaved": {
+      "description": "Text for the prompt when changes are made to a style and the user tries to leave without saving",
+      "message": "You've made changes to this style without saving."
+   },
+   "styleEnabledLabel": {
+      "description": "Label for the enabled state of styles",
+      "message": "Enabled"
+   },
+   "styleInstall": {
+      "description": "Confirmation when installing a style",
+      "message": "Install '$stylename$' into Stylish?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "description": "Error displayed when user saves without providing a name",
+      "message": "Enter a name."
+   },
+   "styleNameLabel": {
+      "description": "Label for the name of styles",
+      "message": "Name"
+   },
+   "styleSaveLabel": {
+      "description": "Label for save button for style editing",
+      "message": "Save"
+   },
+   "styleSectionsTitle": {
+      "description": "Title for the style sections section",
+      "message": "Sections"
+   },
+   "styleToMozillaFormat": {
+      "description": "Label for the button that converts the code to Mozilla format",
+      "message": "To Mozilla format"
+   },
+   "styleToMozillaFormatHelp": {
+      "description": "Help info for the button that converts the code to Mozilla format",
+      "message": "The Mozilla format of the code can be used with Stylish for Firefox and can be submitted to userstyles.org."
+   },
+   "updateCheckFailBadResponseCode": {
+      "description": "Text that displays when an update check failed because the response code indicates an error",
+      "message": "Update failed - server responded with code $code$.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "description": "Text that displays when an update check failed because the update server is unreachable",
+      "message": "Update failed - server unreachable."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "description": "Text that displays when an update check completed and no update is available",
+      "message": "Style is up to date."
+   },
+   "updateCompleted": {
+      "description": "Text that displays when an update completed",
+      "message": "Update completed."
+   }
+}

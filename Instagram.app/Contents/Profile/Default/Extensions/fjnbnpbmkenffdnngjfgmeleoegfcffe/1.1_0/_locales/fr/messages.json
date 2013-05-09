@@ -1,0 +1,229 @@
+{
+   "addStyleLabel": {
+      "description": "Label for the button to go to the add style page",
+      "message": "Cr\u00E9er un nouveau style"
+   },
+   "addStyleTitle": {
+      "description": "Title of the page for adding styles",
+      "message": "Ajouter un style"
+   },
+   "appliesAdd": {
+      "description": "Label for the button to add an 'applies' entry",
+      "message": "Ajouter"
+   },
+   "appliesDisplay": {
+      "description": "Text on the manage screen to describe what the style applies to",
+      "message": "S'applique \u00E0\u00A0: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "description": "Text added to appliesDisplay when there are more sites for the style than are displayed",
+      "message": "et bien plus encore"
+   },
+   "appliesDomainOption": {
+      "description": "Option to make the style apply to the entered string as a domain",
+      "message": "URL sur le domaine"
+   },
+   "appliesHelp": {
+      "description": "Help text for 'applies to' section",
+      "message": "Utilisez l'option \"S'applique \u00E0\" pour pr\u00E9ciser les URL auxquelles le code de cette section s'applique."
+   },
+   "appliesLabel": {
+      "description": "Label for 'applies to' fields on the edit/add screen",
+      "message": "S'applique \u00E0"
+   },
+   "appliesRegexpOption": {
+      "description": "Option to make the style apply to the entered string as a regular expression",
+      "message": "URL correspondant \u00E0 l'expression r\u00E9guli\u00E8re"
+   },
+   "appliesRemove": {
+      "description": "Label for the button to remove an 'applies' entry",
+      "message": "Supprimer"
+   },
+   "appliesSpecify": {
+      "description": "Label for the button to make a style apply only to specific sites",
+      "message": "Pr\u00E9ciser"
+   },
+   "appliesToEverything": {
+      "description": "Text displayed for styles that apply to all sites",
+      "message": "Tout"
+   },
+   "appliesUrlOption": {
+      "description": "Option to make the style apply to the entered string as a URL",
+      "message": "URL"
+   },
+   "appliesUrlPrefixOption": {
+      "description": "Option to make the style apply to the entered string as a URL prefix",
+      "message": "URL commen\u00E7ant par"
+   },
+   "checkAllUpdates": {
+      "description": "Label for the button to check all styles for updates",
+      "message": "Rechercher des mises \u00E0 jour pour tous les styles"
+   },
+   "checkForUpdate": {
+      "description": "Label for the button to check a single style for an update",
+      "message": "Rechercher des mises \u00E0 jour"
+   },
+   "checkingForUpdate": {
+      "description": "Text to display when checking a style for an update",
+      "message": "V\u00E9rification en cours\u2026"
+   },
+   "deleteStyleConfirm": {
+      "description": "Confirmation before deleting a style",
+      "message": "Voulez-vous vraiment supprimer ce style\u00A0?"
+   },
+   "deleteStyleLabel": {
+      "description": "Label for the button to delete a style",
+      "message": "Supprimer"
+   },
+   "desc": {
+      "message": "Les styles utilisateur sont des th\u00E8mes destin\u00E9s aux sites Web. En vous permettant de changer l'aspect des sites Web, vous pouvez profiter d'une exp\u00E9rience de navigation personnalis\u00E9e. Supprimez tout contenu non pertinent, modifiez les couleurs ou changez totalement l'apparence d'un site Web entier.\n\nStylish vous permet de g\u00E9rer facilement les styles utilisateur. Ajoutez, supprimez, activez, d\u00E9sactivez et organisez les styles en quelques clics de souris, sans avoir \u00E0 modifier de code ni \u00E0 rechercher des configurations complexes. Le site Web associ\u00E9 \u00E0 Stylish, userstyles.org, vous propose de tester des dizaines de milliers de styles cr\u00E9\u00E9s par d'autres utilisateurs de Stylish.\n\nQue les geeks notent bien ce qui suit\u00A0: Stylish et userstyles.org sont au CSS ce que Greasemonkey et userscripts.org sont au JavaScript.\n\n*** Si vous souhaitez obtenir de l'aide, veuillez poser vos questions sur le forum http://forum.userstyles.org. Je ne pourrai pas y r\u00E9pondre si vous les posez ici."
+   },
+   "description": {
+      "description": "Extension description",
+      "message": "Changez l'apparence du Web gr\u00E2ce \u00E0 Stylish, un outil de gestion des styles utilisateur. Stylish vous permet d'installer facilement des th\u00E8mes et des habillages pour Google, Facebook, YouTube, orkut et bien d'autres sites encore."
+   },
+   "disableStyleLabel": {
+      "description": "Label for the button to disable a style",
+      "message": "D\u00E9sactiver"
+   },
+   "editStyleHeading": {
+      "description": "Title of the page for editing styles",
+      "message": "Modifier le style"
+   },
+   "editStyleLabel": {
+      "description": "Label for the button to go to the edit style page",
+      "message": "Modifier"
+   },
+   "editStyleTitle": {
+      "description": "Title of the page for editing styles",
+      "message": "Modifier le style $stylename$",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "description": "Label for the button to enable a style",
+      "message": "Activer"
+   },
+   "findStylesForSite": {
+      "description": "Text for a link that gets a list of styles for the current site",
+      "message": "Rechercher d'autres styles pour ce site"
+   },
+   "helpAlt": {
+      "description": "Alternate text for help buttons",
+      "message": "Aide"
+   },
+   "installUpdate": {
+      "description": "Label for the button to install an update for a single style",
+      "message": "Installer la mise \u00E0 jour"
+   },
+   "manageHeading": {
+      "description": "Heading for the manage page",
+      "message": "Styles install\u00E9s"
+   },
+   "manageText": {
+      "description": "Help text on the manage page",
+      "message": "Pour obtenir des styles pr\u00E9d\u00E9finis, rendez-vous sur \u003Ca href='http://userstyles.org'\u003Euserstyles.org\u003C/a\u003E. Posez une question sur le \u003Ca href='http://forum.userstyles.org'\u003Eforum\u003C/a\u003E si vous avez besoin d'aide."
+   },
+   "manageTitle": {
+      "description": "Title for the manage page",
+      "message": "Stylish"
+   },
+   "noStylesForSite": {
+      "description": "Text displayed when no styles are installed for the current site",
+      "message": "Aucun style n'est install\u00E9 pour ce site."
+   },
+   "openManage": {
+      "description": "Link to open the manage page.",
+      "message": "G\u00E9rer les styles install\u00E9s"
+   },
+   "sectionAdd": {
+      "description": "Label for the button to add a section",
+      "message": "Ajouter une section"
+   },
+   "sectionCode": {
+      "description": "Label for the code for a section",
+      "message": "Code"
+   },
+   "sectionHelp": {
+      "description": "Help text for sections",
+      "message": "Les sections vous permettent de d\u00E9finir diff\u00E9rentes portions de code correspondant \u00E0 un m\u00EAme style que vous pouvez appliquer \u00E0 des ensembles d'URL distincts. Par exemple, un m\u00EAme style appliqu\u00E9 \u00E0 la page d'accueil peut modifier celle-ci d'une certaine mani\u00E8re et modifier le reste du site Web d'une autre mani\u00E8re."
+   },
+   "sectionRemove": {
+      "description": "Label for the button to remove a section",
+      "message": "Supprimer la section"
+   },
+   "styleCancelEditLabel": {
+      "description": "Label for cancel button for style editing",
+      "message": "Retour \u00E0 la gestion"
+   },
+   "styleChangesNotSaved": {
+      "description": "Text for the prompt when changes are made to a style and the user tries to leave without saving",
+      "message": "Vous avez apport\u00E9 des modifications \u00E0 ce style sans les enregistrer."
+   },
+   "styleEnabledLabel": {
+      "description": "Label for the enabled state of styles",
+      "message": "Activ\u00E9"
+   },
+   "styleInstall": {
+      "description": "Confirmation when installing a style",
+      "message": "Installer \"$stylename$\" dans Stylish\u00A0?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "description": "Error displayed when user saves without providing a name",
+      "message": "Veuillez saisir un nom."
+   },
+   "styleNameLabel": {
+      "description": "Label for the name of styles",
+      "message": "Nom"
+   },
+   "styleSaveLabel": {
+      "description": "Label for save button for style editing",
+      "message": "Enregistrer"
+   },
+   "styleSectionsTitle": {
+      "description": "Title for the style sections section",
+      "message": "Sections"
+   },
+   "styleToMozillaFormat": {
+      "description": "Label for the button that converts the code to Mozilla format",
+      "message": "Convertir au format Mozilla"
+   },
+   "styleToMozillaFormatHelp": {
+      "description": "Help info for the button that converts the code to Mozilla format",
+      "message": "Le code au format Mozilla peut \u00EAtre utilis\u00E9 dans Stylish\u00A0for\u00A0Firefox et envoy\u00E9 \u00E0 userstyles.org."
+   },
+   "updateCheckFailBadResponseCode": {
+      "description": "Text that displays when an update check failed because the response code indicates an error",
+      "message": "\u00C9chec de la mise \u00E0 jour. Le serveur a renvoy\u00E9 le $code$ $code$.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "description": "Text that displays when an update check failed because the update server is unreachable",
+      "message": "\u00C9chec de la mise \u00E0 jour. Le serveur est inaccessible."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "description": "Text that displays when an update check completed and no update is available",
+      "message": "Le style est \u00E0 jour."
+   },
+   "updateCompleted": {
+      "description": "Text that displays when an update completed",
+      "message": "Mise \u00E0 jour termin\u00E9e."
+   }
+}

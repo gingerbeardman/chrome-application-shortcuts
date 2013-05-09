@@ -1,0 +1,175 @@
+{
+   "addStyleLabel": {
+      "message": "\u7F16\u5199\u65B0\u7684\u6837\u5F0F"
+   },
+   "addStyleTitle": {
+      "message": "\u6DFB\u52A0\u6837\u5F0F"
+   },
+   "appliesAdd": {
+      "message": "\u6DFB\u52A0"
+   },
+   "appliesDisplay": {
+      "message": "\u5E94\u7528\u5230: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "\u4EE5\u53CA\u66F4\u591A"
+   },
+   "appliesDomainOption": {
+      "message": "\u6307\u5B9A\u57DF\u4E0A\u7684URL"
+   },
+   "appliesHelp": {
+      "message": "\u4F7F\u7528\u201C\u5E94\u7528\u5230\u201D\u6765\u63A7\u5236\u8FD9\u4E2A\u6837\u5F0F\u5E94\u7528\u5230\u54EA\u4E9B\u5730\u5740\u4E0A\u3002"
+   },
+   "appliesLabel": {
+      "message": "\u5E94\u7528\u5230"
+   },
+   "appliesRegexpOption": {
+      "message": "\u5339\u914D\u6B63\u5219\u7684URL"
+   },
+   "appliesRemove": {
+      "message": "\u79FB\u9664"
+   },
+   "appliesSpecify": {
+      "message": "\u6307\u5B9A\u7AD9\u70B9"
+   },
+   "appliesToEverything": {
+      "message": "\u6240\u6709\u7AD9\u70B9"
+   },
+   "appliesUrlOption": {
+      "message": "\u5730\u5740"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "\u4EE5\u6307\u5B9A\u5730\u5740\u5F00\u59CB"
+   },
+   "checkAllUpdates": {
+      "message": "\u68C0\u67E5\u6240\u6709\u6837\u5F0F\u7684\u66F4\u65B0"
+   },
+   "checkForUpdate": {
+      "message": "\u68C0\u67E5\u66F4\u65B0"
+   },
+   "checkingForUpdate": {
+      "message": "\u68C0\u67E5\u4E2D..."
+   },
+   "deleteStyleConfirm": {
+      "message": "\u786E\u5B9A\u8981\u5220\u9664\u8FD9\u4E2A\u6837\u5F0F\u5417?"
+   },
+   "deleteStyleLabel": {
+      "message": "\u5220\u9664"
+   },
+   "description": {
+      "message": "Stylish\uFF0C\u4E00\u4E2A\u7528\u6237\u6837\u5F0F\u7BA1\u7406\u5668\uFF0C\u5E2E\u52A9\u60A8\u91CD\u65B0\u5B9A\u4E49\u7F51\u9875\u6837\u5F0F\u3002Stylish\u6613\u4E8E\u4E3AGoogle\uFF0CFacebook\uFF0CYoutube\uFF0COrkut\u4EE5\u53CA\u5176\u5B83\u5404\u7C7B\u578B\u7F51\u7AD9\u5B89\u88C5\u6837\u5F0F\u548C\u4E3B\u9898\u3002"
+   },
+   "disableStyleLabel": {
+      "message": "\u7981\u7528"
+   },
+   "editStyleHeading": {
+      "message": "\u7F16\u8F91\u6837\u5F0F"
+   },
+   "editStyleLabel": {
+      "message": "\u7F16\u8F91"
+   },
+   "editStyleTitle": {
+      "message": "\u7F16\u8F91\u6837\u5F0F $stylename$",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "message": "\u542F\u7528"
+   },
+   "findStylesForSite": {
+      "message": "\u67E5\u627E\u66F4\u591A\u9002\u5408\u6B64\u7AD9\u70B9\u7684\u6837\u5F0F"
+   },
+   "helpAlt": {
+      "message": "\u5E2E\u52A9"
+   },
+   "installUpdate": {
+      "message": "\u5B89\u88C5\u66F4\u65B0"
+   },
+   "manageHeading": {
+      "message": "\u5DF2\u5B89\u88C5\u7684\u6837\u5F0F"
+   },
+   "manageText": {
+      "message": "\u8BBF\u95EE \u003Ca href='http://userstyles.org'\u003Euserstyles.org\u003C/a\u003E \u67E5\u627E\u9884\u5B9A\u4E49\u7684\u6837\u5F0F. \u5982\u679C\u60A8\u9700\u8981\u5E2E\u52A9\uFF0C\u8BF7\u8BBF\u95EE \u003Ca href='http://forum.userstyles.org'\u003E\u8BBA\u575B\u003C/a\u003E."
+   },
+   "manageTitle": {
+      "message": "Stylish"
+   },
+   "noStylesForSite": {
+      "message": "\u5F53\u524D\u7AD9\u70B9\u4E0A\u6CA1\u6709\u5DF2\u5B89\u88C5\u7684\u6837\u5F0F"
+   },
+   "openManage": {
+      "message": "\u7BA1\u7406\u5DF2\u5B89\u88C5\u6837\u5F0F"
+   },
+   "sectionAdd": {
+      "message": "\u6DFB\u52A0\u65B0\u8282"
+   },
+   "sectionCode": {
+      "message": "\u4EE3\u7801"
+   },
+   "sectionHelp": {
+      "message": "\u6837\u5F0F\u8282\u5141\u8BB8\u4F60\u5B9A\u4E49\u591A\u4E2A\u6837\u5F0F\u6BB5\u843D\u5E76\u5C06\u5B83\u4EEC\u5E94\u7528\u4E8E\u4E0D\u540C\u7684\u7AD9\u70B9\u5339\u914D\u89C4\u5219\u4E0A\u3002\u4F8B\u5982\uFF0C\u4E00\u4E2A\u6837\u5F0F\u53EF\u4EE5\u66F4\u6539\u4F7F\u7528\u4E00\u4E2A\u65B9\u5F0F\u6765\u66F4\u6539\u4E3B\u9875\uFF0C\u800C\u6B64\u65F6\u5176\u5B83\u7684\u6837\u5F0F\u6BB5\u53EF\u4EE5\u66F4\u6539\u7AD9\u70B9\u7684\u5176\u5B83\u90E8\u5206\u3002"
+   },
+   "sectionRemove": {
+      "message": "\u79FB\u9664\u8282"
+   },
+   "styleCancelEditLabel": {
+      "message": "\u8FD4\u56DE\u5230\u7BA1\u7406"
+   },
+   "styleChangesNotSaved": {
+      "message": "\u60A8\u5DF2\u7ECF\u4FEE\u6539\u4E86\u6B64\u6837\u5F0F\uFF0C\u4F46\u5C1A\u672A\u4FDD\u5B58"
+   },
+   "styleEnabledLabel": {
+      "message": "\u5DF2\u542F\u7528"
+   },
+   "styleInstall": {
+      "message": "\u5B89\u88C5 '$stylename$' \u5230 Stylish?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "\u8BF7\u8F93\u5165\u540D\u79F0."
+   },
+   "styleNameLabel": {
+      "message": "\u540D\u79F0"
+   },
+   "styleSaveLabel": {
+      "message": "\u4FDD\u5B58"
+   },
+   "styleSectionsTitle": {
+      "message": "\u6837\u5F0F\u8282"
+   },
+   "styleToMozillaFormat": {
+      "message": "\u8F6C\u6362\u4E3AMozilla\u683C\u5F0F"
+   },
+   "styleToMozillaFormatHelp": {
+      "message": "\u7528\u4E8EFirefox\u4E0A\u7684Stylish\u7684Mozilla\u683C\u5F0F\u6837\u5F0F\u4EE3\u7801\u53EF\u4EE5\u5728 userstyles.org \u4E0A\u63D0\u4EA4"
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "\u66F4\u65B0\u5931\u8D25 - \u670D\u52A1\u5668\u4E86\u8FD4\u56DE\u4EE3\u7801 $code$.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "\u66F4\u65B0\u5931\u8D25 - \u670D\u52A1\u5668\u65E0\u6CD5\u8BBF\u95EE."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "\u5DF2\u7ECF\u662F\u6700\u65B0\u7684."
+   },
+   "updateCompleted": {
+      "message": "\u66F4\u65B0\u5B8C\u6210."
+   }
+}
