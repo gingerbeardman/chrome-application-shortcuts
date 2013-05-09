@@ -1,4 +1,6 @@
-#Chrome Application Shortcuts for Mac OS X.
+# chrome-application-shortcuts
+
+##Chrome Application Shortcuts for Mac OS X.
 
 Chrome should be installed to /Applications for these to work correctly.
 
@@ -19,9 +21,6 @@ No frills wrapper for Trello.com, the online collaboration tool that organizes y
 ##Changelog
 **2013-05-09**  
 Added Gmail, Instagram and NeoGAF  
-
-**2013-03-20**  
-Added Trello  
 
 ## Licence
 CC BY 3.0
