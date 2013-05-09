@@ -17,11 +17,11 @@
       "pepper_flash_settings_enabled": true,
       "window_placement": {
          "always_on_top": false,
-         "bottom": 1076,
+         "bottom": 1052,
          "left": 22,
          "maximized": false,
          "right": 1130,
-         "top": 24,
+         "top": 44,
          "work_area_bottom": 1076,
          "work_area_left": 0,
          "work_area_right": 1920,
@@ -29,11 +29,11 @@
       },
       "window_placement_DevToolsApp": {
          "always_on_top": false,
-         "bottom": 1011,
+         "bottom": 989,
          "left": 100,
          "maximized": false,
          "right": 1307,
-         "top": 501,
+         "top": 100,
          "work_area_bottom": 1076,
          "work_area_left": 0,
          "work_area_right": 1920,
@@ -77,7 +77,7 @@
             "bottom": 1076,
             "left": 281,
             "maximized": false,
-            "right": 1800,
+            "right": 1701,
             "top": 22,
             "work_area_bottom": 1076,
             "work_area_left": 0,
@@ -116,17 +116,17 @@
    },
    "extensions": {
       "autoupdate": {
-         "last_check": "13008194270105365",
-         "next_check": "13008258999215706"
+         "last_check": "13004634900448778",
+         "next_check": "13007238102434593"
       },
       "blacklistupdate": {
-         "lastpingday": "13008150000336715",
-         "version": "0.0.0.141"
+         "lastpingday": "13004611200809315",
+         "version": "0.0.0.139"
       },
       "chrome_url_overrides": {
          "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
       },
-      "last_chrome_version": "25.0.1364.172",
+      "last_chrome_version": "25.0.1364.160",
       "settings": {
          "aakhlmakppmkkmfkoibponkmmpgpmjgl": {
             "blacklist": true
@@ -162,9 +162,6 @@
             "blacklist": true
          },
          "agmhonoepgcnakccfpidhjehlocaeaaj": {
-            "blacklist": true
-         },
-         "agodbcffjkjcnceklapkjfcmkfepmbgm": {
             "blacklist": true
          },
          "ahfgeienlihckogmohjhadlkjgocpleb": {
@@ -262,7 +259,7 @@
                "api": [ "background", "clipboardRead", "clipboardWrite", "notifications", "unlimitedStorage" ]
             },
             "install_time": "13004634901552021",
-            "lastpingday": "13008150000469828",
+            "lastpingday": "13004611200890518",
             "location": 1,
             "manifest": {
                "app": {
@@ -306,9 +303,6 @@
          "bcddmcejgphfgofbpoocakaeapfomlek": {
             "blacklist": true
          },
-         "bckhfnghfdponbaldednpnljadgfjecj": {
-            "blacklist": true
-         },
          "bdgijcibmhjjccgbdohofncdjcophknj": {
             "blacklist": true
          },
@@ -319,9 +313,6 @@
             "blacklist": true
          },
          "bhmahaiplmeodpakkcchmolaihbhkpdl": {
-            "blacklist": true
-         },
-         "biiponhbbifajapmbggbgaepiedinifm": {
             "blacklist": true
          },
          "bilgncckogfgfipdlejkffnbkgjkmflh": {
@@ -357,7 +348,7 @@
                "api": [ "appNotifications" ]
             },
             "install_time": "13001961255942792",
-            "lastpingday": "13008150000469828",
+            "lastpingday": "13004611200890518",
             "location": 1,
             "manifest": {
                "app": {
@@ -444,9 +435,6 @@
          "cgnkbnaiipmfbakpmhllalggoepniemh": {
             "blacklist": true
          },
-         "cidnoinjdbalndcidafahfnoeehfblfl": {
-            "blacklist": true
-         },
          "cihlkpohodpdkdnfalhdkhhlhmhffmbe": {
             "blacklist": true
          },
@@ -474,13 +462,7 @@
          "cmlokmkdolieoaoddlfhaidnlmiadhik": {
             "blacklist": true
          },
-         "cmnfphnmpedeolmelllmgkghmjcnlajp": {
-            "blacklist": true
-         },
          "cnimdnlablahacgompaahbgohcokcclp": {
-            "blacklist": true
-         },
-         "cniodhfhdiidogekcjkplecimemfocpn": {
             "blacklist": true
          },
          "coajchbkdbfhmhbgcjepiofllfjjcpfp": {
@@ -492,7 +474,7 @@
             "from_bookmark": true,
             "from_webstore": true,
             "install_time": "13001961255825342",
-            "lastpingday": "13008150000469828",
+            "lastpingday": "13004611200890518",
             "location": 1,
             "manifest": {
                "app": {
@@ -541,9 +523,6 @@
          "dbmdicehacbaohlockjgdglcobimmjkh": {
             "blacklist": true
          },
-         "dcfefnkefopibnlcjhjcfegckhanekld": {
-            "blacklist": true
-         },
          "dejippphmhbpgckbhdidnjmdcpfccbaj": {
             "blacklist": true
          },
@@ -586,9 +565,6 @@
          "djnahdkbfgnhgpakidinfonfcjbagkgp": {
             "blacklist": true
          },
-         "djpnjilhooodipllnjedjeiabkboakok": {
-            "blacklist": true
-         },
          "dkhkecikbdfpoiopnnpoeglbdphgflmf": {
             "blacklist": true
          },
@@ -623,9 +599,6 @@
             "blacklist": true
          },
          "ebdcdchjcndpjhehacedepnggfdbfkpn": {
-            "blacklist": true
-         },
-         "ebhdpnhjbfkchfamjcpebpeddhhicnab": {
             "blacklist": true
          },
          "echjhfifjidfhoappglfmoffcpmpkigb": {
@@ -729,9 +702,6 @@
          "fbjjhbijaiopkcdolheliknnjlkaekeb": {
             "blacklist": true
          },
-         "fbmgoajoadbjhoachcdiplofcblaihdc": {
-            "blacklist": true
-         },
          "fcfepemfihgibdacjlnlecebknaaepmj": {
             "blacklist": true
          },
@@ -760,12 +730,6 @@
             "blacklist": true
          },
          "fjjeecfjmgfnleghoellhldedkaocjfc": {
-            "blacklist": true
-         },
-         "fjpofaghniailakahnhkjjfbfonpfglo": {
-            "blacklist": true
-         },
-         "flalbhkmnijcnpialgakicllnabckmhi": {
             "blacklist": true
          },
          "fleljamdchegbjeiipbnmiebnhgheeld": {
@@ -840,9 +804,6 @@
          "gdggdkkjecogagaffaemnbfmllcoihjp": {
             "blacklist": true
          },
-         "geggofhlfbcmanadhknllmlajiafopoh": {
-            "blacklist": true
-         },
          "gekkhpjigmckhgmgngadbeknekgpgolb": {
             "blacklist": true
          },
@@ -850,9 +811,6 @@
             "blacklist": true
          },
          "gfmmoiakbmdohkgeoekiokjgljcminig": {
-            "blacklist": true
-         },
-         "gfngfjfcpjomkalffgdamglddjaoiohn": {
             "blacklist": true
          },
          "ggkpicnfnljflddbdoeeaajjgepapcbf": {
@@ -901,12 +859,6 @@
             "blacklist": true
          },
          "goedioiidkokkbobdnopnlnaaalniegm": {
-            "blacklist": true
-         },
-         "gomkbnfeifchddfokcicibjnlgbolhol": {
-            "blacklist": true
-         },
-         "gpdcodmabpgmncbkhpipakhehepmpopk": {
             "blacklist": true
          },
          "gpgehbjbkfhngdlfpfeokjgbkmmokjhe": {
@@ -1332,9 +1284,6 @@
          "lljnngafekbnkpdfophmcdlbfebcbcld": {
             "blacklist": true
          },
-         "lmhdacagnmfmomeodbgmlghejdbmldge": {
-            "blacklist": true
-         },
          "lnahlgmhpghkhmafjppdidhcoaomipfg": {
             "blacklist": true
          },
@@ -1375,9 +1324,6 @@
             "blacklist": true
          },
          "maakimnachffhlgdhfomaejeeaikgjap": {
-            "blacklist": true
-         },
-         "mafccdbbhekjhemajjejkaidndokeena": {
             "blacklist": true
          },
          "magllcifjcllaafcdplnajmobccbcdlo": {
@@ -1601,9 +1547,6 @@
          "obgljnmbldahelaakfdbjkplokjoneip": {
             "blacklist": true
          },
-         "oblicopoaionpjoapgjmmoncjadpdioh": {
-            "blacklist": true
-         },
          "ocmhjnhildbnglmlfimkjnnfgddelacb": {
             "blacklist": true
          },
@@ -1614,9 +1557,6 @@
             "blacklist": true
          },
          "odnamglmogfldajnhkfodmloofeokcmm": {
-            "blacklist": true
-         },
-         "oelhhkgiajkjfbccafjgggcpkbkjgpij": {
             "blacklist": true
          },
          "oghphhcagopecifjblgdcfihjnlcbcfc": {
@@ -1691,9 +1631,6 @@
          "pfcelnbmkeoaeicedjomcjkcammlkdbk": {
             "blacklist": true
          },
-         "pfckhplmfbblecglndaigpojefidapai": {
-            "blacklist": true
-         },
          "pfgmgcnbngcnhjddppmnloflcidemopc": {
             "blacklist": true
          },
@@ -1739,7 +1676,7 @@
                "api": [ "notifications" ]
             },
             "install_time": "13001961255907815",
-            "lastpingday": "13008150000469828",
+            "lastpingday": "13004611200890518",
             "location": 1,
             "manifest": {
                "app": {
@@ -1819,39 +1756,19 @@
    "net": {
       "http_server_properties": {
          "servers": {
-            "ajax.googleapis.com:443": {
-               "supports_spdy": true
-            },
             "apis.google.com:443": {
-               "supports_spdy": true
-            },
-            "chrome.google.com:443": {
-               "supports_spdy": true
-            },
-            "clients2.google.com:443": {
                "settings": {
                   "4": 100,
-                  "5": 32,
-                  "6": 0
+                  "5": 10
                },
                "supports_spdy": true
             },
-            "csi.gstatic.com:443": {
-               "supports_spdy": true
-            },
-            "fls.doubleclick.net:443": {
-               "supports_spdy": true
-            },
-            "fonts.googleapis.com:443": {
-               "supports_spdy": true
-            },
             "googleads.g.doubleclick.net:443": {
-               "supports_spdy": true
-            },
-            "id.google.co.uk:443": {
-               "supports_spdy": true
-            },
-            "lh5.googleusercontent.com:443": {
+               "settings": {
+                  "4": 100,
+                  "5": 5,
+                  "6": 0
+               },
                "supports_spdy": true
             },
             "r.twimg.com:443": {
@@ -1860,21 +1777,17 @@
             "ssl.google-analytics.com:443": {
                "settings": {
                   "4": 100,
-                  "5": 7,
+                  "5": 17,
                   "6": 0
                },
                "supports_spdy": true
             },
             "ssl.gstatic.com:443": {
-               "supports_spdy": true
-            },
-            "www.facebook.com:443": {
-               "supports_spdy": true
-            },
-            "www.google-analytics.com:443": {
-               "supports_spdy": true
-            },
-            "www.google.co.uk:443": {
+               "settings": {
+                  "4": 100,
+                  "5": 21,
+                  "6": 0
+               },
                "supports_spdy": true
             },
             "www.google.com:443": {
@@ -1884,9 +1797,6 @@
                   "6": 0
                },
                "supports_spdy": true
-            },
-            "www.googleadservices.com:443": {
-               "supports_spdy": true
             }
          },
          "version": 1
@@ -1894,17 +1804,17 @@
    },
    "ntp": {
       "app_page_names": [ "Apps" ],
-      "promo_resource_cache_update": "1363776769.533551"
+      "promo_resource_cache_update": "1362764041.631578"
    },
    "plugins": {
       "enabled_internal_pdf3": true,
       "enabled_nacl": true,
-      "last_internal_directory": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.172/Google Chrome Framework.framework/Internet Plug-Ins",
+      "last_internal_directory": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.160/Google Chrome Framework.framework/Internet Plug-Ins",
       "migrated_to_pepper_flash": true,
       "plugins_list": [ {
          "enabled": true,
          "name": "Shockwave Flash",
-         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.172/Google Chrome Framework.framework/Internet Plug-Ins/PepperFlash/PepperFlashPlayer.plugin",
+         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.160/Google Chrome Framework.framework/Internet Plug-Ins/PepperFlash/PepperFlashPlayer.plugin",
          "version": "11.5.31.5"
       }, {
          "enabled": true,
@@ -1914,17 +1824,17 @@
       }, {
          "enabled": true,
          "name": "Native Client",
-         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.172/Google Chrome Framework.framework/Internet Plug-Ins/ppGoogleNaClPluginChrome.plugin",
+         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.160/Google Chrome Framework.framework/Internet Plug-Ins/ppGoogleNaClPluginChrome.plugin",
          "version": ""
       }, {
          "enabled": true,
          "name": "Chrome PDF Viewer",
-         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.172/Google Chrome Framework.framework/Internet Plug-Ins/PDF.plugin",
+         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.160/Google Chrome Framework.framework/Internet Plug-Ins/PDF.plugin",
          "version": ""
       }, {
          "enabled": true,
          "name": "Shockwave Flash",
-         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.172/Google Chrome Framework.framework/Internet Plug-Ins/Flash Player Plugin for Chrome.plugin",
+         "path": "/Applications/Google Chrome.app/Contents/Versions/25.0.1364.160/Google Chrome Framework.framework/Internet Plug-Ins/Flash Player Plugin for Chrome.plugin",
          "version": "11.5.502.136"
       }, {
          "enabled": true,
@@ -2038,15 +1948,10 @@
       "avatar_index": 0,
       "content_settings": {
          "clear_on_exit_migrated": true,
-         "pattern_pairs": {
-            "https://trello.com:443,*": {
-               "notifications": 1
-            }
-         },
          "pref_version": 1
       },
       "created_by_version": "23.0.1271.101",
-      "exit_type": "Crashed",
+      "exit_type": "Normal",
       "exited_cleanly": true,
       "name": "First user"
    },
@@ -2067,7 +1972,7 @@
          "views": 0
       } ],
       "ntp_notification_promo": [ {
-         "closed": true,
+         "closed": false,
          "end": 1363737540.0,
          "gplus_required": false,
          "group": 0,
