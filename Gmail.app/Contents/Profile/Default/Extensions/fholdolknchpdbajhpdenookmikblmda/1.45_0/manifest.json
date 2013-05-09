@@ -1,0 +1,23 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquerymin.js", "ezAutocorrect.js" ],
+      "matches": [ "http://mail.google.com/*", "https://mail.google.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Autocorrect text while you type in Gmail emails",
+   "icons": {
+      "128": "ez128.png",
+      "48": "ez48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChAwPm5AKnbLNlevDv/633C5FUXuwgyZaZP64T4T7S5mthj/RsBZB7RuAlV6Qt2wf5v0sCe+N8j6PpgkVNOXk+LPs3pwZ4P+zA13fybVzKTPEuDfCvo83xaJcTz/vNM5Dl4ddMfx//xkUZZbbpnIiWSkf4ejazoQDhgRMi4U/zRwIDAQAB",
+   "manifest_version": 2,
+   "name": "ezAutoCorrect for GMail",
+   "options_page": "options.html",
+   "permissions": [ "http://mail.google.com/*", "https://mail.google.com/*", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.45"
+}
