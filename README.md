@@ -1,12 +1,14 @@
 # chrome-application-shortcuts
 
-Chrome Application Shortcuts for Mac OS X.
+##Chrome Application Shortcuts for Mac OS X.
 
 Chrome should be installed to /Applications for these to work correctly.
 
-Currently included:
+**NeoGAF**  
+Comes preconfigured with the NeoGAF Mobile on Desktop extension, keyword highlighter and AdBlock. Believe.  
 
-* Trello
+**Trello**  
+No frills wrapper for Trello.com, the online collaboration tool that organizes your projects into boards.  
 
 ## Licence
 CC BY 3.0
