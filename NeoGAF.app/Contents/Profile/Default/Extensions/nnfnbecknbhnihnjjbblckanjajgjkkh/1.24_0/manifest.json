@@ -1,0 +1,24 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "Automatic Keywords Highlighter"
+   },
+   "content_scripts": [ {
+      "css": [ "highlight.css" ],
+      "js": [ "handle_content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Automatically highlights selected keywords in webpages",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDb3De5UtevmRJEpjhugwzbh4Cl/8gOmxN4p3Prn+sO8RYEBROMBxH8azGytV5aii6XDcu3vsBjw68vzBqCP3OO8CPLinF+pKFOjr4XrvVwi1xDr5ddp+R2Y3OlkYdAAqTI3XPP+jZi2D1bfPpTBPZXy2zs5WqNYmXYyS37uc95dQIDAQAB",
+   "name": "Keywords Highlighter",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.24"
+}

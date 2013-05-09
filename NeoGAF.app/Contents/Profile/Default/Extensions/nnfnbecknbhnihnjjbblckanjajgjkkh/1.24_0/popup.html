@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<head>
+	<meta name="description" content="Popup for the Automatic Keyword Highlighter Chrome extension" /> 
+	<meta charset="UTF-8" />
+	<title>Automatic Keyword Highlighter</title> 
+	<style type="text/css">
+		body {
+			font-family:Arial;
+			background-color:#E2EBEE;
+			width:650px;
+			height:160px;
+		}
+		#khwords {
+			width:510px;
+		}
+		#cont {
+			width:600px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		#mainform {
+			background-color:#fff;
+			height:100px;
+			padding:18px 12px 0px 12px;
+			border-left: 2px solid #999;
+			border-right: 2px solid #999;
+			border-bottom: 2px solid #999;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 15px;
+		}    
+		#titlediv {
+			color:#003;
+			background:#D2DBED;
+			text-align:center;
+			text-size:26px;
+			font-weight:bold;
+			border: 2px solid #999;
+			padding: 8px 0px 8px 0px;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+		#operdiv {
+			color:#009;
+			font-size:14px;
+			margin-top:12px;
+		}
+		.small {
+			font-size:12px;
+			color:#333;
+			position:relative;
+			top:-3px;
+		}
+	</style>
+  	<script type="text/javascript">
+		function savekh() {
+			if (localStorage) {
+				localStorage["khwords"] = document.getElementById("khwords").value;
+				opermsg("Saved! These keywords will be highlighted on all pages from now on.");
+
+				// Tell the current content page about the change
+				chrome.tabs.getSelected(null, function(tab) { 
+					chrome.tabs.sendRequest(tab.id, {msg: "callbg"});
+				});
+
+			} else {
+				opermsg("Error: No localStorage support");
+			}
+		}
+
+		function fetchkh() {
+			if (localStorage && localStorage["khwords"] != undefined) {
+				document.getElementById("khwords").value = localStorage["khwords"];
+			}
+		}
+
+		function opermsg(msg) {
+			document.getElementById("operdiv").innerHTML = msg;
+		}
+  	</script>
+</head>
+<body onload="fetchkh()">
+  <div id="cont">
+    <div id="titlediv">
+      Automatic Keyword Highlighter
+    </div>
+    <div id="mainform">
+      <input type="text" id="khwords" placeholder="Enter comma-separated words" autofocus="autofocus" />
+      <button id="formbtn" onclick="savekh()">Save</button><br/>
+      <span class="small">For example: "<i>Canada,Tennis,Google</i>"</span>
+      <div id="operdiv"></div>
+    </div>
+  </div>
+</body> 
+</html>

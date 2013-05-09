@@ -1,0 +1,6 @@
+#!/bin/sh
+iam="$0"
+profDir=$(dirname "$iam")
+profDir=$(dirname "$profDir")
+profDir="$profDir/Profile"
+exec '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --app="http://m.neogaf.com/forumdisplay.php?f=2" --disk-cache-dir="/dev/null/" --disk-cache-size=1 --user-data-dir="$profDir" "$@"

@@ -1,0 +1,14 @@
+<script>
+chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+    if (request.fetch && request.fetch == "khwords") {
+      if (localStorage && localStorage["khwords"] != undefined) {
+        sendResponse({khwords: localStorage["khwords"]});
+      } else {
+        sendResponse({});
+      }
+    } else {
+      sendResponse({}); // snub them.
+    }
+  });
+</script>  

@@ -1,0 +1,5 @@
+.chromeextension-highlight { 
+	color:blue; 
+	background-color:yellow; 
+	display: inline !important;
+}

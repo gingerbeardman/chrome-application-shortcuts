@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<head>
+<html>
+	<meta charset="utf-8">
+	<title>Options</title>
+	<style type="text/css">
+		body {
+			font-size: 62.5%;
+			font-family: sans-serif;
+			line-height: 1.0em;
+		}
+		
+		h1 {
+			font-size: 2em;
+		}
+		
+		p {
+			font-size: 1.2em;
+			line-height: 1.2em;
+			margin: 1em 0;
+		}
+		
+		fieldset {
+			margin: 0 0 2em 0;
+			border: 1px solid #666;
+			padding-top: 0.75em;
+		}
+		
+		legend {
+			font-size: 1.2em;
+			color: #666;
+		}
+		
+		form p {
+			font-size: 1.2em;
+			margin: 0;
+		}
+		
+		.secret {
+			display: none;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/options.js"></script>
+</head>
+<body>
+	<h1>NeoGAF Mobile on Desktop: Options</h1>
+	
+	<p>
+		This extension makes Chrome pretend it is an iPad whilst viewing NeoGAF, so you see the more streamlined mobile theme.
+	</p>
+	
+	<p>
+		By Matt Sephton <a href="http://www.gingerbeardman.com/chrome/">http://www.gingerbeardman.com/chrome/</a>
+	</p>
+
+	<form id="options">
+		<fieldset>
+			<legend>Infinite Scroll</legend>
+			<p>
+				<label><input type="checkbox" name="infinitelist" id="infinitelist"> Topic listing page</label><br>
+				<label><input type="checkbox" name="infinitedetail" id="infinitedetail"> Topic detail page</label><br>
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Topic subtitle stats</legend>
+			<p>
+				<label><input type="checkbox" name="subtitleshidden" id="subtitleshidden"> Hidden</label><br>
+			</p>
+		</fieldset>
+		
+		<input type="hidden" name="showsecret" id="showsecret">
+
+		<fieldset class="secret">
+			<legend>Non-highlighted (requires an additional extension, coming soon)</legend>
+			<p>
+				<label><input type="radio" name="topics" id="topicsnormal" value="none"> Normal</label><br>
+				<label><input type="radio" name="topics" id="topicsgreyed" value="greyed"> Greyed</label><br>
+				<label><input type="radio" name="topics" id="topicshidden" value="hidden"> Hidden</label><br>
+			</p>
+			<p>
+				<br><label><input type="checkbox" name="topicsautohide" id="topicsautohide"> Topics auto hide (press ESC to manually toggle)</label><br>
+			</p>
+		</fieldset>
+
+		<fieldset class="secret">
+			<legend>Ad containers</legend>
+			<p>
+				<label><input type="checkbox" name="adcontainers" id="adcontainers"> Hide</label><br>
+			</p>
+		</fieldset>
+	</form>
+	
+	<p>
+		<b>Also:</b> <a href="http://m.neogaf.com/prefs.php">http://m.neogaf.com/prefs.php</a><br>
+		<br>
+		Show Photos<br>
+		Show GIFs<br>
+		Show Avatars<br>
+		Embed YouTube<br>
+		Show Sticky Threads<br>
+		Show Thread Detail<br>
+		Thread Arrows Go To<br>
+		Font Size<br>
+		Theme<br>
+	</p>
+</body>
+</html>
